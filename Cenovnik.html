@@ -1,0 +1,103 @@
+<html>
+<link rel="stylesheet" type="text/css" href="Cenovnik.css">
+														
+<title>													 			
+	Cenovnik Magija										 
+</title>												 
+<body>													 			
+					
+	<div class="background">
+		<div><img src="1.jpg" style="width: 100%; height: 100%;"></div>
+		<div><img src="2.jpg" style="width: 100%; height: 100%;"></div>
+		<div><img src="3.jpg" style="width: 100%; height: 100%;"></div>
+		<div><img src="4.jpg" style="width: 100%; height: 100%;"></div>
+	</div>								
+
+
+<div class="naslov">
+	<head>
+		<a href="Magija.html" target="">Restoran Magija</a>
+	</head>
+</div>
+
+<div class="navbar">	
+		<a href="cenovnik.html" target="">cenovnik</a>
+		<a href="galerija.html" target="">galerija</a>
+		<a href="Lokacija.html" target="">lokacija</a>
+		<a href="ketering.html">ketering</a>
+		<a href="o nama.html">o nama</a>
+</div>									 			
+
+
+
+
+
+<div class="center">
+	
+</div>
+	
+
+<script src="jquery.min.1.7.js"></script>
+<script src="turn.js"></script>
+	
+<div class="pos">
+	<div>
+		<div id="flipbook">
+		    <div class="hard"><img style="width: 100%; height: 100%" src="korica.png"></div> 
+		    <div class="hard"><img style="width:100%; height: 100%;" src="strana1.png"></div>
+		    <div><img style="width:100%; height: 100%;" src="strana2.png"></div>
+		    <div><img style="width:100%; height: 100%;" src="strana3.png"></div>
+		    <div><img style="width:100%; height: 100%;" src="strana4.png"></div>
+		    <div><img style="width:100%; height: 100%;" src="strana5.png"></div>
+		    <div class="hard"><img style="width:100%; height: 100%;" src="strana6.png"></div>
+		    <div class="hard"><img style="width:100%; height: 100%;" src="korica2.png"></div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+$("#flipbook").turn({
+ 	width: 1000,
+	height: 800,
+    autoCenter: true
+});
+
+
+$("#slideshow > div:gt(0)").hide();
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  1000);
+
+$("#slideshow2 > div:gt(0)").hide();
+setInterval(function() { 
+  $('#slideshow2 > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow2');
+},  1000);
+
+
+$(".background > div:gt(0)").hide();
+setInterval(function() { 
+  $('.background > div:first')
+    .fadeOut(500)
+    .next()
+    .fadeIn(500)
+    .end()
+    .appendTo('.background');
+},  4000);
+</script>
+
+
+
+</script>
+</body>											 
+</html>													 

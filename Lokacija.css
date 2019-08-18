@@ -1,0 +1,122 @@
+body,html{
+
+	margin:0px;
+	padding: 0px;
+	background-image: url(Ulaz.jpg);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+ 	background-position: 50% 50%;
+ 	background-size: 100% 100%;
+  overflow: hidden;
+}
+
+a{
+
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+
+.background{
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  backface-visibility: hidden;
+  overflow-x:hidden;
+}
+
+
+.naslov{
+	width: 100%;  
+	text-align: center;
+	color: white;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+	background: rgba(0, 0, 0, 0.9);
+	position: relative;
+	z-index: 1;
+  font-family: cursive;
+
+}
+
+.naslov a{
+
+ font-size: 2.5vw;
+}
+
+.navbar{
+
+  width: 100%;
+  height: 5%;
+  font-size: 1.5vw;
+  background: rgb(0, 0, 0);
+  background: rgba(0,0,0,0.9); 
+  text-align: center;
+  word-spacing: 100%;
+  position: absolute;
+  padding-top: 1%;
+  padding-bottom: 1%; 
+  z-index: 1;
+  font-family: cursive;
+
+}
+
+.navbar a{
+
+  margin-top: 5%;
+  padding: 1%;
+  animation-name: shadow;
+  animation-play-state: paused;
+  animation-duration: 1s;
+
+}
+
+
+.navbar a:hover{
+
+  box-shadow: 1px 1px 4px 0px rgb(255,255,255);
+  color: #939393;
+}
+
+
+#map {
+		margin-left: 60%;
+		margin-top: 5%;
+    height: 30vw;  /* The height is 400 pixels */
+    width: 40vw;  
+    position: absolute;
+    z-index: 1;
+}
+
+.dole{
+
+  position: absolute;
+  bottom: 0;
+  height: 12%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255,255,255,0.9);
+
+
+}
+
+.dole p{
+
+  margin-top: 2%;
+  margin-left:7%;
+  float: left;
+  font-size: 2vw;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}
+
+.dole p a{
+
+  margin-top: 2%;
+  margin-left:7%;
+  float: left;
+  font-size: 2vw;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}

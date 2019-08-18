@@ -1,0 +1,266 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	background-image: url();
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+
+    }
+
+a{
+	text-decoration: none;
+  color: rgb(255,255,255);
+}
+
+
+
+
+.naslov{
+
+  width: 100%;  
+  text-align: center;
+  font-size: 2.5vw;
+  color: white;
+  background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+  font-family: cursive;
+
+}
+
+.navbar{
+
+  width: 100%;
+  height: 5%;
+  font-size: 1.5vw;
+  background: rgb(0, 0, 0);
+  background: rgba(0,0,0,0.9); 
+  text-align: center;
+  word-spacing: 100%;
+  position: absolute;
+  padding-top: 1%;
+  padding-bottom: 1%; 
+  z-index: 1;
+  font-family: cursive;
+
+}
+
+.navbar a{
+
+  padding: 1%;
+  animation-name: shadow;
+  animation-play-state: paused;
+  animation-duration: 1s;
+
+}
+
+
+.navbar a:hover{
+
+  box-shadow: 1px 1px 4px 0px rgb(255,255,255);
+  color: #939393;
+}
+
+.right{
+
+
+	margin-top: 4%;
+	margin-left: 70%;
+  margin-right: 10%;
+	margin-bottom: -50%;
+	height: 100%;
+	width: 20%;
+	position: absolute;
+	border-style: ;
+} 
+
+
+.left{
+	margin-top: 4%;
+	margin-left: 10%;
+	height: 100%;
+	width: 20%;
+	position: absolute;
+	border-style: ;
+}
+
+.center{
+	margin-top: 4.5%;
+	margin-left: 10%; 
+  margin-right: 10%;
+	background-image: ;
+	position: absolute;
+	width: 80%;
+	height: 80%;
+	opacity: 0.9;
+  border-style: ;
+}
+
+.background{
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: block;
+  backface-visibility: hidden;
+  overflow-x:hidden;
+}
+
+.background img{
+  position: absolute;
+}
+
+
+
+
+
+/*---------------------Cenovnik----------------*/
+
+
+
+#flipbook{
+    width:200px;
+    height:100px;
+}
+
+@media screen and (min-width: 1201px) {
+
+
+.pos{
+
+	align-content: center;
+	margin-top: 5vw;
+  margin-bottom: 5vw;
+	margin-left: 24vw;
+	margin-right: 44vw;
+	height: 100%;
+
+}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+.pos{
+
+  align-content: center;
+  margin-top: 8vw;
+  margin-bottom: 5vw;
+  margin-left: 0vw;
+  margin-right: 90vw;
+  height: 10%;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+.pos{
+
+  align-content: center;
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+  margin-left: -8vw;
+  margin-right: 100vw;
+  height: 10%;
+
+  }
+}
+
+
+
+@media screen and (min-width: 3000px) {
+
+.pos{
+
+  align-content: center;
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+  margin-left: 37vw;
+  margin-right: 100vw;
+  height: 10%;
+
+  }
+}
+
+
+@media screen and (min-width: 4000px) {
+
+.pos{
+
+  align-content: center;
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+  margin-left: 45vw;
+  margin-right: 100vw;
+  height: 10%;
+
+  }
+}
+
+
+
+
+#flipbook .page{
+    width:200px;
+    height:100px;
+    background-color:white;
+    line-height:300px;
+    font-size:20px;
+    text-align:center;
+}
+
+#flipbook .page-wrapper{
+    -webkit-perspective:2000px;
+    -moz-perspective:2000px;
+    -ms-perspective:2000px;
+    -o-perspective:2000px;
+    perspective:2000px;
+}
+
+#flipbook .hard{
+    background:#ccc !important;
+    color:#333;
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    font-weight:bold;
+}
+
+#flipbook .odd{
+    background:-webkit-gradient(linear, right top, left top, color-stop(0.95, #FFF), color-stop(1, #DADADA));
+    background-image:-webkit-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-moz-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-ms-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:-o-linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    background-image:linear-gradient(right, #FFF 95%, #C4C4C4 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+    
+}
+
+#flipbook .even{
+    background:-webkit-gradient(linear, left top, right top, color-stop(0.95, #fff), color-stop(1, #dadada));
+    background-image:-webkit-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-moz-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-ms-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:-o-linear-gradient(left, #fff 95%, #dadada 100%);
+    background-image:linear-gradient(left, #fff 95%, #dadada 100%);
+    -webkit-box-shadow:inset 0 0 5px #666;
+    -moz-box-shadow:inset 0 0 5px #666;
+    -o-box-shadow:inset 0 0 5px #666;
+    -ms-box-shadow:inset 0 0 5px #666;
+    box-shadow:inset 0 0 5px #666;
+}

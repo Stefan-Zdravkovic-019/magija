@@ -1,0 +1,86 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	background-image: url(.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
+    }
+
+@font-face {
+  font-family: "Arabella";
+  src: url(Arabella.ttf);
+}
+
+
+a{
+
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+
+.naslov{
+
+  width: 100%;  
+  text-align: center;
+  font-size: 300%;
+  color: white;
+  background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+  font-family: cursive;
+
+}
+
+.navbar{
+
+  width: 100%;
+  height: 5%;
+  font-size: 1.5vw;
+  background: rgb(0, 0, 0);
+  background: rgba(0,0,0,0.9); 
+  text-align: center;
+  word-spacing: 100%;
+  position: absolute;
+  padding-top: 1%;
+  padding-bottom: 1%; 
+  z-index: 1;
+ font-family: cursive;
+
+}
+
+.navbar a{
+
+  margin-top: 5%;
+  padding: 1%;
+  animation-name: shadow;
+  animation-play-state: paused;
+  animation-duration: 1s;
+
+}
+
+
+.navbar a:hover{
+
+  box-shadow: 1px 1px 4px 0px rgb(255,255,255);
+  color: #939393;
+
+}
+
+.background{
+
+	top: 0px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+	backface-visibility: hidden;
+	overflow-x:hidden;
+}
+
+.background img{
+	position: absolute;
+}
