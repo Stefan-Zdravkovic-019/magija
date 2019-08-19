@@ -117,7 +117,7 @@ a{
   margin-top: 2%;
   margin-left: 5%;
   float: left;
-  font-size: 40px;
+  font-size: 150%;
   color: rgb(0,0,0);
   font-family: cursive;
 }
@@ -127,7 +127,7 @@ a{
   margin-top: 2%;
   margin-left:5%;
   float: left;
-  font-size: 40px;
+  font-size: 110%;
   color: rgb(0,0,0);
   font-family: cursive;
 }
