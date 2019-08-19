@@ -81,9 +81,9 @@ a{
 
 #map {
 		margin-left: 60%;
-		margin-top: 10%;
-    height: 50%;  /* The height is 400 pixels */
-    width: 30%;  
+		margin-top: 7%;
+    height: 600px;  /* The height is 400 pixels */
+    width: 600px;  
     position: absolute;
     z-index: 1;
     right:0px;
