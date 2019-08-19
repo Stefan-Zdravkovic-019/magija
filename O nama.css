@@ -30,6 +30,22 @@ a{
 
 }
 
+@media screen and (max-width: 1000px) {
+
+.naslov{
+
+  width: 100%;  
+  text-align: center;
+  font-size: 200%;
+  color: white;
+  background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+  font-family: cursive;
+
+}
+}
 
 
 .navbar{
@@ -64,6 +80,45 @@ a{
   box-shadow: 1px 1px 4px 0px rgb(255,255,255);
   color: #939393;
 }
+
+
+@media screen and (max-width: 1000px) {
+
+.navbar{
+
+  width: 100%;
+  height: 5%;
+  font-size: 100%;
+  background: rgb(0, 0, 0);
+  background: rgba(0,0,0,0.9); 
+  text-align: center;
+  word-spacing: 100%;
+  position: absolute;
+  padding-top: 1%;
+  padding-bottom: 1%; 
+  z-index: 1;
+  font-family: cursive;
+
+}
+
+.navbar a{
+
+  padding: 1%;
+  animation-name: shadow;
+  animation-play-state: paused;
+  animation-duration: 1s;
+
+}
+
+
+.navbar a:hover{
+
+  box-shadow: 1px 1px 4px 0px rgb(255,255,255);
+  color: #939393;
+}
+}
+
+
 
 .background{
 
@@ -185,7 +240,78 @@ a{
 .dole p{
 
   margin-top: 2%;
-  margin-left: 5%;
+  margin-left: 11%;
+  float: left;
+  font-size: 200%;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}
+
+.dole p a{
+
+  margin-top: 2%;
+  margin-left:11%;
+  float: left;
+  font-size: 110%;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}
+
+
+@media screen and (max-width: 1800px) {
+
+.dole{
+
+  position: absolute;
+  bottom: 0px;
+  height: 11%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255,255,255,0.9);
+
+
+}
+
+.dole p{
+
+  margin-top: 2%;
+  margin-left: 8%;
+  float: left;
+  font-size: 180%;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}
+
+.dole p a{
+
+  margin-top: 2%;
+  margin-left:8%;
+  float: left;
+  font-size: 100%;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}
+}
+
+
+@media screen and (max-width: 1400px) {
+
+.dole{
+
+  position: absolute;
+  bottom: 0px;
+  height: 11%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255,255,255,0.9);
+
+
+}
+
+.dole p{
+
+  margin-top: 2%;
+  margin-left: 6%;
   float: left;
   font-size: 150%;
   color: rgb(0,0,0);
@@ -195,9 +321,82 @@ a{
 .dole p a{
 
   margin-top: 2%;
-  margin-left:5%;
+  margin-left:6%;
   float: left;
-  font-size: 110%;
+  font-size: 100%;
   color: rgb(0,0,0);
   font-family: cursive;
+}
+}
+
+
+@media screen and (max-width: 1100px) {
+
+.dole{
+
+  position: absolute;
+  bottom: 0px;
+  height: 11%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255,255,255,0.9);
+
+
+}
+
+.dole p{
+
+  margin-top: 2%;
+  margin-left: 6%;
+  float: left;
+  font-size: 120%;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}
+
+.dole p a{
+
+  margin-top: 2%;
+  margin-left:6%;
+  float: left;
+  font-size: 80%;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}
+}
+
+
+@media screen and (max-width: 800px) {
+
+.dole{
+
+  position: absolute;
+  bottom: 0px;
+  height: 11%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255,255,255,0.9);
+
+
+}
+
+.dole p{
+
+  margin-top: 2%;
+  margin-left: 8%;
+  float: left;
+  font-size: 70%;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}
+
+.dole p a{
+
+  margin-top: 2%;
+  margin-left: 8%;
+  float: left;
+  font-size: 100%;
+  color: rgb(0,0,0);
+  font-family: cursive;
+}
 }
