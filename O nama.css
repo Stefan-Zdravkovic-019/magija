@@ -30,23 +30,6 @@ a{
 
 }
 
-@media screen and (max-width: 1000px) {
-
-.naslov{
-
-  width: 100%;  
-  text-align: center;
-  font-size: 200%;
-  color: white;
-  background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
-  background: rgba(0, 0, 0, 0.9);
-  position: relative;
-  z-index: 1;
-  font-family: cursive;
-
-}
-}
-
 
 .navbar{
 
@@ -79,43 +62,6 @@ a{
 
   box-shadow: 1px 1px 4px 0px rgb(255,255,255);
   color: #939393;
-}
-
-
-@media screen and (max-width: 1000px) {
-
-.navbar{
-
-  width: 100%;
-  height: 5%;
-  font-size: 100%;
-  background: rgb(0, 0, 0);
-  background: rgba(0,0,0,0.9); 
-  text-align: center;
-  word-spacing: 100%;
-  position: absolute;
-  padding-top: 1%;
-  padding-bottom: 1%; 
-  z-index: 1;
-  font-family: cursive;
-
-}
-
-.navbar a{
-
-  padding: 1%;
-  animation-name: shadow;
-  animation-play-state: paused;
-  animation-duration: 1s;
-
-}
-
-
-.navbar a:hover{
-
-  box-shadow: 1px 1px 4px 0px rgb(255,255,255);
-  color: #939393;
-}
 }
 
 
