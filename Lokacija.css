@@ -82,7 +82,7 @@ a{
 #map {
 		margin-left: 60%;
 		margin-top: 10%;
-    height: 100%;  /* The height is 400 pixels */
+    height: 70%;  /* The height is 400 pixels */
     width: 40%;  
     position: absolute;
     z-index: 1;
@@ -106,7 +106,7 @@ a{
   margin-top: 2%;
   margin-left:7%;
   float: left;
-  font-size: 2vw;
+  font-size: 200%;
   color: rgb(0,0,0);
   font-family: cursive;
 }
@@ -116,7 +116,7 @@ a{
   margin-top: 2%;
   margin-left:7%;
   float: left;
-  font-size: 2vw;
+  font-size: 200%;
   color: rgb(0,0,0);
   font-family: cursive;
 }
