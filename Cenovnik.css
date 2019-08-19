@@ -131,7 +131,7 @@ a{
 
 .pos{
 
-  position: absolute;
+  position: relative;
 	align-content: center;
 	margin-top: 5%;
   margin-bottom: 5%;
@@ -148,7 +148,7 @@ a{
 
 .pos{
 
-  position: absolute;
+  position: relative;
   align-content: center;
   margin-top: 10%;
   margin-bottom: 5%;
@@ -166,7 +166,7 @@ a{
 
 .pos{
 
-  position: absolute;
+  position: relative;
   align-content: center;
   margin-top: 13%;
   margin-bottom: 5%;
@@ -183,7 +183,7 @@ a{
 
 .pos{
 
-  position: absolute;
+  position: relative;
   align-content: center;
   margin-top: 15%;
   margin-bottom: 5%;
@@ -199,7 +199,7 @@ a{
 
 .pos{
 
-  position: absolute;
+  position: relative;
   align-content: center;
   margin-top: 18%;
   margin-bottom: 5%;
