@@ -82,10 +82,11 @@ a{
 #map {
 		margin-left: 60%;
 		margin-top: 5%;
-    height: 30vw;  /* The height is 400 pixels */
-    width: 40vw;  
+    height: 30%;  /* The height is 400 pixels */
+    width: 40%;  
     position: absolute;
     z-index: 1;
+    right:0px;
 }
 
 .dole{
