@@ -105,12 +105,34 @@ a{
 .main{
 
   position: absolute;
-  margin-top: 20%;
+  margin-top: 22%;
   margin-bottom: 50%;
   margin-left: 20%;
   width: 60%;
   height: 20%;
   font-size: 100%;
+}
+
+.main p{
+
+  color: rgb(255,255,255);
+  text-shadow: -3px 2px black;
+  text-align: center;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+.main{
+
+  position: absolute;
+  margin-top: 25%;
+  margin-bottom: 50%;
+  margin-left: 20%;
+  width: 60%;
+  height: 20%;
+  font-size: 80%;
 }
 
 .main p{
@@ -129,7 +151,7 @@ a{
 .main{
 
   position: absolute;
-  margin-top: 20%;
+  margin-top: 25%;
   margin-bottom: 50%;
   margin-left: 20%;
   width: 60%;
