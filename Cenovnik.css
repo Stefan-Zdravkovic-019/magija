@@ -110,7 +110,7 @@ a{
 }
 
 .background img{
-  position: absolute;
+  position: fixed;
 }
 
 
