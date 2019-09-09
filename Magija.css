@@ -87,6 +87,10 @@ a{
 
 }
 
+.navbar{
+  display: none;
+}
+
 .nav2 {
   overflow: hidden;
   background-color: #333;
