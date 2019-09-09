@@ -76,6 +76,7 @@ a{
 	position: fixed;
 	width: auto;
 	height: auto;
+  max-width: 100%;
 	display: block;
 	backface-visibility: hidden;
 	overflow-x:hidden;
@@ -83,4 +84,5 @@ a{
 
 .background img{
 	position: fixed;
+  height: auto;
 }
