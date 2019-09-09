@@ -87,28 +87,6 @@ a{
 
 }
 
-
-
-}
-
-.background{
-
-	top: 0px;
-	position: fixed;
-	width: auto;
-	height: auto;
-  max-width: 300%;
-	display: block;
-	backface-visibility: hidden;
-	overflow-x:hidden;
-}
-
-.background img{
-	position: fixed;
-  height: auto;
-}
-
-
 .container {
   display: inline-block;
   cursor: pointer;
@@ -133,3 +111,25 @@ a{
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
 }
+
+
+
+}
+
+.background{
+
+	top: 0px;
+	position: fixed;
+	width: auto;
+	height: auto;
+  max-width: 300%;
+	display: block;
+	backface-visibility: hidden;
+	overflow-x:hidden;
+}
+
+.background img{
+	position: fixed;
+  height: auto;
+}
+
