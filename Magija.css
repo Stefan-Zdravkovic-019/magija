@@ -76,7 +76,7 @@ a{
 	position: fixed;
 	width: auto;
 	height: auto;
-  max-width: 100%;
+  max-width: 300%;
 	display: block;
 	backface-visibility: hidden;
 	overflow-x:hidden;
