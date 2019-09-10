@@ -28,15 +28,31 @@
 		<a href="O nama.html">o nama</a>
 </div>
 
-
-<div id="myLinks">
+<div class="nav2">
+  <a href="#home" class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
   </div>
-<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+</div>
+<script type="text/javascript">
+	
+	function nav2() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+} 
+
+</script>
 
 
 <script src="jquery.min.1.7.js"></script>
@@ -53,16 +69,7 @@ setInterval(function() {
 },  3000);
 </script>
 
-<script type="text/javascript">
-	function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-} 
-</script>
+
 
 
 </body>
