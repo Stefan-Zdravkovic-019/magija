@@ -73,7 +73,7 @@ a{
 
 .topnav{
 
-  display: block;
+  display: none;
 
 }
 
@@ -118,8 +118,8 @@ a{
 
  /* Style the navigation menu */
 .topnav {
-  display: block;
   overflow: hidden;
+  background: rgba(0, 0, 0, 0.9);
   position: relative;
 }
 
@@ -130,6 +130,7 @@ a{
 
 /* Style navigation menu links */
 .topnav a {
+  color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -138,6 +139,7 @@ a{
 
 /* Style the hamburger menu */
 .topnav a.icon {
+  background: rgba(0, 0, 0, 0.9);
   display: block;
   position: absolute;
   right: 0;
@@ -146,8 +148,12 @@ a{
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
+  background: rgba(0, 0, 0, 0.9);
+  color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
 }
