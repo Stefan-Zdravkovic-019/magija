@@ -71,6 +71,11 @@ a{
 
 }
 
+.topnav{
+
+  display: none;
+
+}
 
 @media screen and (max-width: 1200px){
 
@@ -93,9 +98,6 @@ a{
 }
 
 
-
-}
-
 .background{
 
   top: 0px;
@@ -116,6 +118,7 @@ a{
 
  /* Style the navigation menu */
 .topnav {
+  display: block;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.9);
   position: relative;
