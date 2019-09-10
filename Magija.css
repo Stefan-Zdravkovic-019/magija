@@ -71,7 +71,7 @@ a{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1200px){
 
 .naslov{
 
@@ -91,7 +91,20 @@ a{
   display: none;
 }
 
-.nav2 {
+
+
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.topnav {
   overflow: hidden;
   position: absolute;
   margin-left: 95%;
@@ -99,12 +112,12 @@ a{
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.nav2 #myLinks {
+.topnav #myLinks {
   display: none;
 }
 
 /* Style navigation menu links */
-.nav2 a {
+.topnav a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -113,7 +126,7 @@ a{
 }
 
 /* Style the hamburger menu */
-.nav2 a.icon {
+.topnav a.icon {
   background: white;
   display: block;
   position: absolute;
