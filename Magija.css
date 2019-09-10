@@ -6,7 +6,6 @@ body, html {
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: 100% 100%;
-  overflow: hidden;
     }
 
 @font-face {
@@ -30,7 +29,7 @@ a{
   color: white;
   background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
   background: rgba(0, 0, 0, 0.9);
-  position: absolute;
+  position: relative;
   z-index: 1;
   font-family: cursive;
 
@@ -71,13 +70,8 @@ a{
 
 }
 
-.topnav{
 
-  display: none;
-
-}
-
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 800px){
 
 .naslov{
 
@@ -97,6 +91,43 @@ a{
   display: none;
 }
 
+.nav2 {
+  overflow: hidden;
+  position: absolute;
+  margin-left: 95%;
+  top: 8%;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.nav2 #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.nav2 a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.nav2 a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  display: none;
+  color: white;
+}
+
+}
 
 .background{
 
@@ -113,47 +144,4 @@ a{
 .background img{
   position: fixed;
   height: auto;
-}
-
-
- /* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background: rgba(0, 0, 0, 0.9);
-  position: absolute;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: rgba(0, 0, 0, 0.9);
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background: rgba(0, 0, 0, 0.9);
-  color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background: rgba(0, 0, 0, 0.9);
-  color: white;
 }
