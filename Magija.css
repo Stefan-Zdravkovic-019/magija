@@ -120,7 +120,7 @@ a{
 .topnav {
   overflow: hidden;
   background: rgba(0, 0, 0, 0.9);
-  position: relative;
+  position: absolute;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
