@@ -117,7 +117,7 @@ a{
  /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background: rgba(0, 0, 0, 0.9);
   position: relative;
 }
 
@@ -137,7 +137,7 @@ a{
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: rgba(0, 0, 0, 0.9);
   display: block;
   position: absolute;
   right: 0;
@@ -146,13 +146,12 @@ a{
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background: rgba(0, 0, 0, 0.9);
   color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
   background: rgba(0, 0, 0, 0.9);
-  background: rgb(0, 0, 0);
   color: white;
 }
