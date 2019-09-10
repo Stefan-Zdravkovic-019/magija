@@ -91,7 +91,7 @@ a{
   display: none;
 }
 
-.nav2 {
+.top {
   overflow: hidden;
   position: absolute;
   margin-left: 95%;
@@ -99,12 +99,12 @@ a{
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-.nav2 #myLinks {
+.top #myLinks {
   display: none;
 }
 
 /* Style navigation menu links */
-.nav2 a {
+.top a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -113,7 +113,7 @@ a{
 }
 
 /* Style the hamburger menu */
-.nav2 a.icon {
+.top a.icon {
   background: white;
   display: block;
   position: absolute;
