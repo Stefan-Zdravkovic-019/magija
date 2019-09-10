@@ -92,6 +92,7 @@ a{
 }
 
 
+
 .mobile-container {
   max-width: 480px;
   margin: auto;
@@ -112,15 +113,19 @@ a{
 }
 
 .topnav a {
-  float: left;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  display: block;
 }
 
 .topnav a.icon {
-  float: right;
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .topnav a:hover {
@@ -132,7 +137,6 @@ a{
   background-color: #4CAF50;
   color: white;
 }
-
 }
 
 .background{
