@@ -91,39 +91,45 @@ a{
   display: none;
 }
 
-.nav2 {
-  overflow: hidden;
-  position: absolute;
-  margin-left: 95%;
-  top: 8%;
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
-.nav2 #myLinks {
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
   display: none;
 }
 
-/* Style navigation menu links */
-.nav2 a {
+.topnav a {
+  float: left;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  display: block;
 }
 
-/* Style the hamburger menu */
-.nav2 a.icon {
-  background: white;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+.topnav a.icon {
+  float: right;
 }
 
-/* Style the active link (or home/logo) */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 .active {
-  display: none;
+  background-color: #4CAF50;
   color: white;
 }
 
