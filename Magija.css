@@ -114,6 +114,11 @@ a{
 }
 
 
+.top{
+
+  z-index: 2;
+}
+
 nav.menu {
   width: 300px;
   min-height: calc(100vh - 121px);
