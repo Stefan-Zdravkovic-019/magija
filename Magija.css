@@ -134,7 +134,7 @@ a{
   top: 0px;
   position: fixed;
   width: 100%;
-  height: auto;
+  height: 100%;
   max-width: 300%;
   display: block;
   backface-visibility: hidden;
