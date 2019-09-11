@@ -133,7 +133,7 @@ a{
 
   top: 0px;
   position: fixed;
-  width: auto;
+  width: 100%;
   height: auto;
   max-width: 300%;
   display: block;
