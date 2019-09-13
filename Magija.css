@@ -50,12 +50,13 @@ a{
   z-index: 1;
   font-family: cursive;
   overflow: auto;
-  
+
 }
 
 .navbar a{
 
   padding-right: 1%;
+  padding: 5px;
   animation-name: shadow;
   animation-play-state: paused;
   animation-duration: 1s;
