@@ -71,8 +71,6 @@ a{
 }
 
 
-
-
 @media screen and (max-width: 800px){
 
 .naslov{
@@ -91,6 +89,17 @@ a{
 
 .navbar{
   display: none;
+}
+
+
+div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  z-index: 5;
+  position: absolute;
+}
 
 }
 
@@ -109,6 +118,4 @@ a{
 .background img{
   position: fixed;
   height: auto;
-}
-
 }
