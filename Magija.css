@@ -103,14 +103,13 @@ a{
   max-width: 300%;
   display: block;
   backface-visibility: hidden;
-  overflow: hidden;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: visible;
+  overflow-x: visible;
+  overflow-y: visible;
 }
 
 .background img{
   position: fixed;
   height: auto;
-  overflow: hidden;
-  overflow-x: hidden;
+  overflow: visible;
 }
