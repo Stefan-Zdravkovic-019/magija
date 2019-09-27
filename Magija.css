@@ -112,4 +112,5 @@ a{
   position: fixed;
   height: auto;
   overflow: hidden;
+  overflow-x: hidden;
 }
