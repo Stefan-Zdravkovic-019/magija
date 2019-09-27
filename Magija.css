@@ -104,9 +104,12 @@ a{
   display: block;
   backface-visibility: hidden;
   overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .background img{
   position: fixed;
   height: auto;
+  overflow: hidden;
 }
