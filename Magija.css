@@ -103,7 +103,6 @@ a{
   max-width: 300%;
   display: block;
   backface-visibility: hidden;
-  overflow-x:hidden;
 }
 
 .background img{
