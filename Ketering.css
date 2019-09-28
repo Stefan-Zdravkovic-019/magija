@@ -15,7 +15,6 @@ body, html {
 }
 
 
-
 .naslov{
 
   width: 100%;  
@@ -41,7 +40,7 @@ body, html {
   word-spacing: 100%;
   position: absolute;
   padding-top: 1%;
-  padding-bottom: 3%; 
+  padding-bottom: 1%; 
   z-index: 1;
   font-family: cursive;
 
@@ -49,8 +48,8 @@ body, html {
 
 .navbar a{
 
-  padding-right: 1%;
-  padding: 15px;
+  margin-top: 5%;
+  padding: 1%;
   animation-name: shadow;
   animation-play-state: paused;
   animation-duration: 1s;
@@ -64,28 +63,6 @@ body, html {
   color: #939393;
 
 }
-
-
-@media screen and (max-width: 800px){
-
-.naslov{
-
-  width: 100%;  
-  text-align: center;
-  font-size: 450%;
-  color: white;
-  background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
-  background: rgba(0, 0, 0, 0.9);
-  position: relative;
-  z-index: 1;
-  font-family: cursive;
-
-}
-
-.navbar{
-  display: none;
-}
-
 
 .background{
 
