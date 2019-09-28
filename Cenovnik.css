@@ -105,7 +105,6 @@ a{
   height: 100%;
   display: block;
   backface-visibility: hidden;
-  overflow-x:hidden;
 }
 
 .background img{
