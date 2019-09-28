@@ -17,6 +17,7 @@ body, html {
 
 .naslov{
 
+  max-width: 100%
   width: 100%;  
   text-align: center;
   font-size: 350%;
@@ -26,6 +27,7 @@ body, html {
   position: relative;
   z-index: 1;
   font-family: cursive;
+  overflow-x: hidden;
 
 }
 
@@ -40,7 +42,7 @@ body, html {
   word-spacing: 100%;
   position: absolute;
   padding-top: 1%;
-  padding-bottom: 1%; 
+  padding-bottom: 3%; 
   z-index: 1;
   font-family: cursive;
 
@@ -48,11 +50,12 @@ body, html {
 
 .navbar a{
 
-  margin-top: 5%;
-  padding: 1%;
+  padding-right: 1%;
+  padding: 15px;
   animation-name: shadow;
   animation-play-state: paused;
   animation-duration: 1s;
+
 
 }
 
@@ -61,7 +64,6 @@ body, html {
 
   box-shadow: 1px 1px 4px 0px rgb(255,255,255);
   color: #939393;
-
 }
 
 .background{
