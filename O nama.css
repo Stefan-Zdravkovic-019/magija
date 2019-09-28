@@ -16,12 +16,11 @@ a{
 }
 
 
-
 .naslov{
 
   width: 100%;  
   text-align: center;
-  font-size: 400%;
+  font-size: 350%;
   color: white;
   background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
   background: rgba(0, 0, 0, 0.9);
@@ -30,6 +29,7 @@ a{
   font-family: cursive;
 
 }
+
 
 .navbar{
 
@@ -63,6 +63,7 @@ a{
   box-shadow: 1px 1px 4px 0px rgb(255,255,255);
   color: #939393;
 }
+
 
 
 .background{
