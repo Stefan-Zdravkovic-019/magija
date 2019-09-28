@@ -130,8 +130,8 @@ a{
 .background img{
 
   position: fixed;
-  height: 100%;
-
+  height: auto;
+  width: auto;
   }
 
 
