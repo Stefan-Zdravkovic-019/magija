@@ -15,12 +15,11 @@ body, html {
 }
 
 
-
 .naslov{
 
   width: 100%;  
   text-align: center;
-  font-size: 400%;
+  font-size: 350%;
   color: white;
   background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
   background: rgba(0, 0, 0, 0.9);
@@ -49,6 +48,7 @@ body, html {
 
 .navbar a{
 
+  margin-top: 5%;
   padding: 1%;
   animation-name: shadow;
   animation-play-state: paused;
@@ -61,8 +61,8 @@ body, html {
 
   box-shadow: 1px 1px 4px 0px rgb(255,255,255);
   color: #939393;
-}
 
+}
 
 .background{
 
