@@ -92,7 +92,7 @@ a{
 }
 
 
-}
+  }
 
 .background{
 
@@ -116,7 +116,7 @@ a{
 @media screen and (max-width: 800px){
 
 
-}
+
 
 .background{
 
@@ -134,3 +134,6 @@ a{
   position: fixed;
   height: auto;
   width: auto;
+
+}
+  }
