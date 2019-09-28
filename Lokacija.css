@@ -28,17 +28,20 @@ a{
 
 
 .naslov{
-
-  width: 100%;  
-  text-align: center;
-  font-size: 400%;
-  color: white;
-  background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
-  background: rgba(0, 0, 0, 0.9);
-  position: relative;
-  z-index: 1;
+	width: 100%;  
+	text-align: center;
+	color: white;
+	background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+	background: rgba(0, 0, 0, 0.9);
+	position: relative;
+	z-index: 1;
   font-family: cursive;
 
+}
+
+.naslov a{
+
+  font-size: 350%;
 }
 
 .navbar{
@@ -60,6 +63,7 @@ a{
 
 .navbar a{
 
+  margin-top: 5%;
   padding: 1%;
   animation-name: shadow;
   animation-play-state: paused;
@@ -73,7 +77,6 @@ a{
   box-shadow: 1px 1px 4px 0px rgb(255,255,255);
   color: #939393;
 }
-
 
 
 #map {
