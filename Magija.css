@@ -127,11 +127,11 @@ a{
   backface-visibility: hidden;
 }
 
-  .background img{
+.background img{
 
-    position: fixed;
-    height: 100%;
-    width: auto;
+  position: fixed;
+  height: 100%;
+  width: auto;
 
   }
 
