@@ -71,7 +71,7 @@ a{
 }
 
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 100px){
 
 .naslov{
 
@@ -132,7 +132,7 @@ a{
 
 .background img{
   position: fixed;
-  height: auto;
+  height: 100%;
   width: auto;
 
 }
