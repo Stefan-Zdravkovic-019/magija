@@ -103,33 +103,79 @@ a{
   text-align: center;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
 
-.main{
 
-  position: absolute;
-  margin-top: 20%;
-  margin-bottom: 70%;
-  margin-left: 20%;
-  width: 60%;
-  height: 10%;
-  font-size: 50%;
-}
 
-.main p{
+.naslov{
 
-  color: rgb(255,255,255);
-  text-shadow: -3px 2px black;
+  width: 100%;  
   text-align: center;
+  font-size: 450%;
+  color: white;
+  background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+  background: rgba(0, 0, 0, 0.9);
+  position: relative;
+  z-index: 1;
+  font-family: cursive;
+
 }
 
 .navbar{
-
   display: none;
 }
 
+
+.mobile-container {
+  max-width: 100%;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.8);
+  height: 300px;
+  color: white;
+  border-radius: 10px;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0,0,0, 0.8);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 20px;
+}
+
+}
 
 .dole{
 
