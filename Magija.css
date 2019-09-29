@@ -123,7 +123,7 @@ a{
 .mobile-container {
   max-width: 100%;
   margin: auto;
-  background-color: #555;
+ background-color: rgba(0,0,0, 0.5);
   height: 500px;
   color: white;
   border-radius: 10px;
@@ -162,7 +162,7 @@ a{
 
 .active {
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
 
