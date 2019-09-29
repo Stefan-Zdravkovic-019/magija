@@ -84,7 +84,7 @@ a{
 		margin-top: 10%;
     height: 550px;  /* The height is 400 pixels */
     width: 600px;  
-    position: absolute;
+    position: relative;
     z-index: 1;
     right:0px;
 }
