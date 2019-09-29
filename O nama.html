@@ -36,6 +36,30 @@
 
 
 
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"></a>
+  <div id="myLinks">
+    <a href="Cenovnik.html">Cenovnik</a>
+    <a href="Galerija.html">Galerija</a>
+    <a href="Lokacija.html">Lokacija</a>
+    <a href="Ketering.html">Ketering</a>
+    <a href="O nama.html">O nama</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<!-- End smartphone / tablet look -->
+</div>
+
+
+
 
 
 
@@ -48,6 +72,17 @@
 
 </div>
 
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
 </body>
 </html>
