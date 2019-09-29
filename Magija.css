@@ -123,15 +123,15 @@ a{
 .mobile-container {
   max-width: 100%;
   margin: auto;
-  background-color: #555;
+  background-color: ;
   height: 500px;
-  color: white;
+  color: ;
   border-radius: 10px;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color:;
   position: relative;
 }
 
@@ -139,6 +139,21 @@ a{
   display: none;
 }
 
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
 .active {
   background-color: #000000;
