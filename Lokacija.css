@@ -184,7 +184,7 @@ a{
 		margin-top: 10%;
     height: 550px;  /* The height is 400 pixels */
     width: 600px;  
-    position: relative;
+    position: absolute;
     z-index: 1;
     right:0px;
 }
@@ -197,7 +197,7 @@ a{
     margin-top: 10%;
     height: 350px;  /* The height is 400 pixels */
     width: 400px;  
-    position: relative;
+    position: absolute;
     z-index: 1;
     right:0px;
 
@@ -212,7 +212,7 @@ a{
     margin-top: 10%;
     height: 300px;  /* The height is 400 pixels */
     width: 350px;  
-    position: relative;
+    position: absolute;
     z-index: 1;
     right:0px;
 
