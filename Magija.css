@@ -168,6 +168,7 @@ a{
 
 }
 
+@media screen and (min-width: 999px){
 
 .background{
 
@@ -185,4 +186,6 @@ a{
   position: fixed;
   height: 100%;
   width: 100%;
+}
+
 }
