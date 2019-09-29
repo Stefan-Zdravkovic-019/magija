@@ -138,6 +138,17 @@ a{
 }
   }
 
+
+
+  @media screen and (max-width: 1000px){
+
+    .navbar{
+
+      display: none;
+    }
+
+
+
   .mobile-container {
   max-width: 480px;
   margin: auto;
@@ -181,4 +192,6 @@ a{
 .active {
   background-color: #4CAF50;
   color: white;
+}
+
 }
