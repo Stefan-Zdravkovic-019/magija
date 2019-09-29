@@ -123,7 +123,7 @@ a{
 .mobile-container {
   max-width: 100%;
   margin: auto;
-  background-color: rgba(0,0,0, 0.8);
+  background-color: rgba(0,0,0, 0.7);
   height: 500px;
   color: white;
   border-radius: 10px;
@@ -131,7 +131,7 @@ a{
 
 .topnav {
   overflow: hidden;
-  background-color: rgba(0,0,0, 0.5);
+  background-color: rgba(0,0,0, 0.7);
   position: relative;
 }
 
