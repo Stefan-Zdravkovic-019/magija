@@ -110,6 +110,7 @@ a{
   backface-visibility: hidden;
 }
 
+
 .background img{
   position: fixed;
   height: 100%;
@@ -117,12 +118,6 @@ a{
 
 }
 
-
-
-.navbar{
-
-  display: none;
-    }
 
 
 
