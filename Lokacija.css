@@ -103,29 +103,6 @@ a{
 
 
 
-.background{
-
-  top: 0px;
-  left: 0px;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  max-width: 300%;
-  display: block;
-  backface-visibility: hidden;
-}
-
-
-.background img{
-  position: fixed;
-  height: 100%;
-  width: auto;
-
-}
-
-
-
-
 .mobile-container {
   max-width: 100%;
   margin: auto;
