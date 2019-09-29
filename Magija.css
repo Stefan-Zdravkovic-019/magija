@@ -131,7 +131,7 @@ a{
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgba(0,0,0, 0.9);
   position: relative;
 }
 
