@@ -78,6 +78,7 @@ a{
   display: block;
   backface-visibility: hidden;
   overflow-x:hidden;
+  z-index: 1;
 }
 
 .background img{
@@ -94,6 +95,7 @@ a{
   width: 60%;
   height: 10%;
   font-size: 2vw;
+  z-index: 1;
 }
 
 .main p{
@@ -101,6 +103,7 @@ a{
   color: rgb(255,255,255);
   text-shadow: -3px 2px black;
   text-align: center;
+  z-index: 1
 }
 
 @media screen and (max-width: 1000px){
