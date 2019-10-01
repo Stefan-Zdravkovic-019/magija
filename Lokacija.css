@@ -206,7 +206,7 @@ a{
 #map {
 		margin-left: 60%;
 		margin-top: 10%;
-    height: 10%;  /* The height is 400 pixels */
+    height: 400px;  /* The height is 400 pixels */
     width: 10%;  
     position: relative;
     z-index: 1;
