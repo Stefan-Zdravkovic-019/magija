@@ -73,7 +73,7 @@ a{
 }
 
 
- @media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px){
 
 
 
@@ -116,6 +116,7 @@ a{
   width: auto;
 
 }
+
 
 
 
@@ -168,16 +169,8 @@ a{
   height: 20px;
 }
 
-
-
-.navbar a:hover{
-
-  box-shadow: 1px 1px 4px 0px rgb(255,255,255);
-  color: #939393;
 }
 
-
-}
 
 
 @media screen and (min-width: 999px){
