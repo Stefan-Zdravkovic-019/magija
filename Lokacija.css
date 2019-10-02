@@ -252,9 +252,9 @@ a{
 
 #map {
     margin-left: 60%;
-    margin-top: 0%;
-    height: 250px;  /* The height is 400 pixels */
-    width: 300px;  
+    margin-top: -5%;
+    height: 200px;  /* The height is 400 pixels */
+    width: 250px;  
     position: relative;
     z-index: 1;
     right:0px;
@@ -267,9 +267,9 @@ a{
 
 #map {
     margin-left: 60%;
-    margin-top: 5%;
-    height: 150px;  /* The height is 400 pixels */
-    width: 200px;  
+    margin-top: 0%;
+    height: 100px;  /* The height is 400 pixels */
+    width: 150px;  
     position: relative;
     z-index: 1;
     right:0px;
