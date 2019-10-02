@@ -302,43 +302,9 @@ a{
 
 .dole{
 
-  position: fixed;
-  bottom: 0px;
-  height: 11%;
-  width: 100%;
-  background-color: rgba(255,255,255,0.9);
-
-
-}
-
-.dole p{
-
-  margin-top: 2%;
-  margin-left: 11%;
-  float: left;
-  font-size: 200%;
-  color: rgb(0,0,0);
-  font-family: cursive;
-}
-
-.dole p a{
-
-  margin-top: 2%;
-  margin-left:11%;
-  float: left;
-  font-size: 110%;
-  color: rgb(0,0,0);
-  font-family: cursive;
-}
-
-
-@media screen and (max-width: 1800px) {
-
-.dole{
-
   position: absolute;
   bottom: 0px;
-  height: 11%;
+  height: 7vw;
   width: 100%;
   position: absolute;
   background-color: rgba(255,255,255,0.9);
@@ -351,7 +317,7 @@ a{
   margin-top: 2%;
   margin-left: 8%;
   float: left;
-  font-size: 180%;
+  font-size: 2vw;
   color: rgb(0,0,0);
   font-family: cursive;
 }
@@ -361,120 +327,8 @@ a{
   margin-top: 2%;
   margin-left:8%;
   float: left;
-  font-size: 100%;
+  font-size: 2vw;
   color: rgb(0,0,0);
   font-family: cursive;
 }
-}
-
-
-@media screen and (max-width: 1400px) {
-
-.dole{
-
-  position: absolute;
-  bottom: 0px;
-  height: 11%;
-  width: 100%;
-  position: absolute;
-  background-color: rgba(255,255,255,0.9);
-
-
-}
-
-.dole p{
-
-  margin-top: 2%;
-  margin-left: 6%;
-  float: left;
-  font-size: 150%;
-  color: rgb(0,0,0);
-  font-family: cursive;
-}
-
-.dole p a{
-
-  margin-top: 2%;
-  margin-left:6%;
-  float: left;
-  font-size: 100%;
-  color: rgb(0,0,0);
-  font-family: cursive;
-}
-}
-
-
-@media screen and (max-width: 1100px) {
-
-.dole{
-
-  position: absolute;
-  bottom: 0px;
-  height: 11%;
-  width: 100%;
-  position: absolute;
-  background-color: rgba(255,255,255,0.9);
-
-
-}
-
-.dole p{
-
-  margin-top: 2%;
-  margin-left: 6%;
-  float: left;
-  font-size: 120%;
-  color: rgb(0,0,0);
-  font-family: cursive;
-}
-
-.dole p a{
-
-  margin-top: 2%;
-  margin-left:6%;
-  float: left;
-  font-size: 80%;
-  color: rgb(0,0,0);
-  font-family: cursive;
-}
-}
-
-
-@media screen and (max-width: 800px) {
-
-.dole{
-
-  position: absolute;
-  bottom: 0px;
-  height: 11%;
-  width: 100%;
-  position: absolute;
-  background-color: rgba(255,255,255,0.9);
-
-
-}
-
-.dole p{
-
-  margin-top: 2%;
-  margin-left: 8%;
-  float: left;
-  font-size: 70%;
-  color: rgb(0,0,0);
-  font-family: cursive;
-}
-
-.dole p a{
-
-  margin-top: 2%;
-  margin-left: 8%;
-  float: left;
-  font-size: 100%;
-  color: rgb(0,0,0);
-  font-family: cursive;
-}
-}
-
-
-
 
