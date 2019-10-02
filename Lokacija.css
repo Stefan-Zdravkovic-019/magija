@@ -209,13 +209,28 @@ a{
 
 #map {
 		margin-left: 60%;
-		margin-top: 15%;
+		margin-top: 10%;
     height: 550px;  /* The height is 400 pixels */
     width: 600px;  
     position: relative;
     z-index: 1;
     right:0px;
 }
+
+@media screen and (max-width: 1800px) {
+
+#map {
+    margin-left: 60%;
+    margin-top: 8%;
+    height: 300px;  /* The height is 400 pixels */
+    width: 350px;  
+    position: relative;
+    z-index: 1;
+    right:0px;
+
+}
+}
+
 
 
 @media screen and (max-width: 1500px) {
