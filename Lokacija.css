@@ -6,7 +6,8 @@ body,html{
 	background-repeat: no-repeat;
   background-attachment: fixed;
  	background-position: 50% 50%;
- 	background-size: 100% 100%;;
+ 	background-size: 100% 100%;
+  overflow: hidden;
   height: 100%;
   width: 100%;
 }
@@ -302,11 +303,10 @@ a{
 
 .dole{
 
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   height: 11%;
   width: 100%;
-  position: absolute;
   background-color: rgba(255,255,255,0.9);
 
 
