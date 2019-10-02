@@ -237,8 +237,8 @@ a{
 #map {
     margin-left: 60%;
     margin-top: 8%;
-    height: 300px;  /* The height is 400 pixels */
-    width: 350px;  
+    height: 400px;  /* The height is 400 pixels */
+    width: 450px;  
     position: relative;
     z-index: 1;
     right:0px;
@@ -253,8 +253,8 @@ a{
 #map {
     margin-left: 60%;
     margin-top: 10%;
-    height: 200px;  /* The height is 400 pixels */
-    width: 250px;  
+    height: 300px;  /* The height is 400 pixels */
+    width: 350px;  
     position: relative;
     z-index: 1;
     right:0px;
@@ -283,8 +283,8 @@ a{
 #map {
     margin-left: 60%;
     margin-top: 0%;
-    height: 200px;  /* The height is 400 pixels */
-    width: 350px;  
+    height: 150px;  /* The height is 400 pixels */
+    width: 200px;  
     position: relative;
     z-index: 1;
     right:0px;
