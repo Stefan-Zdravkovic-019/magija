@@ -209,7 +209,7 @@ a{
 
 #map {
 		margin-left: 60%;
-		margin-top: 15%;
+		margin-top: 10%;
     height: 550px;  /* The height is 400 pixels */
     width: 600px;  
     position: relative;
@@ -222,7 +222,7 @@ a{
 
 #map {
     margin-left: 60%;
-    margin-top: 10%;
+    margin-top: 5%;
     height: 350px;  /* The height is 400 pixels */
     width: 400px;  
     position: relative;
@@ -237,7 +237,7 @@ a{
 
 #map {
     margin-left: 60%;
-    margin-top: 0%;
+    margin-top: -5%;
     height: 250px;  /* The height is 400 pixels */
     width: 300px;  
     position: relative;
