@@ -31,6 +31,7 @@ a{
   z-index: 1;
   font-family: cursive;
   overflow-x: hidden;
+    overflow-x: hidden;
 
 }
 
@@ -48,6 +49,7 @@ a{
   padding-bottom: 3%; 
   z-index: 1;
   font-family: cursive;
+    overflow-x: hidden;
 
 }
 
@@ -58,7 +60,7 @@ a{
   animation-name: shadow;
   animation-play-state: paused;
   animation-duration: 1s;
-
+    overflow-x: hidden;
 
 }
 
@@ -80,6 +82,7 @@ a{
 	width: 20%;
 	position: absolute;
 	border-style: ;
+    overflow-x: hidden;
 } 
 
 
@@ -90,6 +93,7 @@ a{
 	width: 20%;
 	position: absolute;
 	border-style: ;
+    overflow-x: hidden;
 }
 
 .center{
