@@ -296,6 +296,16 @@ a{
 
 /*PHONE VERSION*/
 
+@media screen and (max-width: 1000px max-height: 1000px){
+
+#map{
+
+  display: none;
+
+}
+
+
+}
 
 
 
