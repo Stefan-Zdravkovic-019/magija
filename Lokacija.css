@@ -80,6 +80,13 @@ a{
   animation-play-state: paused;
   animation-duration: 1s;
 
+}
+
+.navbar a:hover{
+
+  box-shadow: 1px 1px 4px 0px rgb(255,255,255);
+  color: #939393;
+
 
 }
 
