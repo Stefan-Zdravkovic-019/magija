@@ -303,20 +303,6 @@ a{
 }
 }
 
-/*PHONE VERSION*/
-
-@media screen and (max-width: 1000px max-height: 1000px){
-
-#map{
-
-  display: none;
-
-}
-
-
-}
-
-
 
 
 .dole{
@@ -325,7 +311,6 @@ a{
   bottom: 0px;
   height: 7vw;
   width: 100%;
-  position: absolute;
   background-color: rgba(255,255,255,0.9);
 
 
