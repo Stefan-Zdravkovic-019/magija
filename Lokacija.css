@@ -91,7 +91,10 @@ a{
 }
 
 
+
+
 @media screen and (max-width: 1000px){
+
 
 
 
@@ -106,6 +109,7 @@ a{
   position: relative;
   z-index: 1;
   font-family: cursive;
+  display: none;
 
 }
 
@@ -136,8 +140,6 @@ a{
 }
 
 
-
-
 .mobile-container {
   max-width: 100%;
   margin: auto;
@@ -145,7 +147,6 @@ a{
   height: 100%;
   color: white;
   border-radius: 10px;
-  z-index: 9999;
 }
 
 .topnav {
@@ -162,18 +163,19 @@ a{
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 350%;
   display: block;
+  align-content: center;
 }
 
 .topnav a.icon {
-  background: white;
+  background: rgb(0,0,0);
   display: block;
   position: absolute;
   right: 0;
   top: 0;
-  height: 20px;
-  width: 20px;
+  height: 70px;
+  width: 70px;
 }
 
 .topnav a:hover {
@@ -184,8 +186,8 @@ a{
 .active {
   background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  height: 20px;
+  color: rgb(0,0,0);
+  height: 70px;
 }
 
 }
