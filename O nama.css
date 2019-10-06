@@ -111,38 +111,8 @@ a{
 }
 
 
-@media screen and (max-width: 800px){
-
-
-.main{
-
-  position: absolute;
-  margin-top: 10%;
-  margin-bottom: 50%;
-  margin-left: 20%;
-  width: 60%;
-  height: 10%;
-  font-size: 2vw;
-  z-index: 1;
-}
-
-
-.main p{
-
-  color: rgb(255,255,255);
-  text-shadow: -3px 2px black;
-  text-align: center;
-  z-index: 1;
-
-}
-
-
-
-
-}
 
 @media screen and (max-width: 1000px){
-
 
 
 
