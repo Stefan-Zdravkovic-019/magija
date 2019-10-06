@@ -162,6 +162,12 @@ a{
   color: black;
 }
 
+.active {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(0,0,0);
+  height: 20px;
+}
 
 }
 
