@@ -226,11 +226,3 @@ a{
 
 }
 
-@media screen and (orientation:portrait){
-
-  .img1{
-
-    display: none;
-  }
-
-}
