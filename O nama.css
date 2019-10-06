@@ -140,7 +140,7 @@ a{
 
 .main{
 
-  position: absolute;
+  position: relative;
   margin-top: 20%;
   margin-bottom: 50%;
   margin-left: 20%;
@@ -162,7 +162,7 @@ a{
 
 .main{
 
-  position: absolute;
+  position: relative;
   margin-top: 10%;
   margin-bottom: 550px;
   margin-left: 20%;
@@ -188,7 +188,7 @@ a{
 
 .main{
 
-  position: absolute;
+  position: relative;
   margin-top: 20%;
   margin-bottom: 450px;
   margin-left: 20%;
