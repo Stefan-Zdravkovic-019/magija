@@ -89,7 +89,7 @@ a{
 
 .main{
 
-  position: absolute;
+  position: relative;
   margin-top: 20%;
   margin-bottom: 350px;
   margin-left: 20%;
