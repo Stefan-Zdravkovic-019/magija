@@ -145,6 +145,7 @@ a{
   text-decoration: none;
   font-size: 350%;
   display: block;
+  align-content: center;
 }
 
 .topnav a.icon {
