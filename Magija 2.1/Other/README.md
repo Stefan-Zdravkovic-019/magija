@@ -1,2 +1,0 @@
-# magija
-Magija source code
