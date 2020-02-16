@@ -1,20 +1,1333 @@
 <!DOCTYPE html>
-<link rel="stylesheet" type="text/css" href="Magija.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html>
+<head>
+  <title>Magija</title>
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/@popperjs/core@2">
+  <link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/Magija.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="icon" type="image/jpg" href="../images/Maskota.jpg"/>
+</head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title> Restoran Magija!</title>
-
 <body>
 
-<head>
-	<title></title>
-	<meta http-equiv="Refresh" content="0; url=Magija.html" />
-</head>
-<link rel="stylesheet" type="text/css" href="Magija.css">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="#top">
+  <a class="navbar-brand" href="#top">Restoran magija</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<title> Restoran Magija!</title>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto mt-4">
+      <li class="nav-item">
+        <a class="nav-link" href="#menu"><i class="fas fa-book">&nbsp;</i>Cenovnik</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#ketering"><i class="fas fa-car-side">&nbsp;</i>Ketering</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#galerija"><i class="fas fa-images">&nbsp;</i>Galerija</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#googleMap"><i class="fas fa-map-marked-alt">&nbsp;</i>Lokacija</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer"><i class="fas fa-newspaper">&nbsp;</i>O nama</a>
+      </li>                        
+    </ul>
+  </div>
+</nav>
 
+<div id="carouselExampleIndicators" class="carousel slide carousel2" data-ride="carousel2">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="">
+      <img class="d-block w-100" src="../images/C1.2.png" alt="First slide" style="">
+    </div>
+    <div class="carousel-item" style="">
+      <img class="d-block w-100" src="../images/1.2.png" alt="Second slide" style="">
+    </div>
+    <div class="carousel-item" style="">
+      <img class="d-block w-100" src="../images/C2.3.png" alt="Third slide" style="">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!---------------------------Menu----------------------------->
+
+
+<div class="container py-5" id="menu">
+    <div class="row">
+        <div class="col-lg-10 mx-auto col-12 text-center mb-3">
+            <h1 class="mt-0 text-primary">Cenovnik</h1>
+            <p class="lead"></p>
+        </div>
+<!-------------------------Dorucak----------------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Doru&#269;ak</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">350din</span>
+                <h6 class="text-truncate">Specijalitet Magija</h6>
+                <p class="small">Tost, jaje, piletina, &#353;unka, ka&#269;kavalj, salata</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">210din</span>
+                <h6 class="text-truncate">Omlet</h6>
+                  <div class="font-weight-bold small">3 jaja i kobasice</div>
+                <div class="font-weight-bold small">3 jaja i sir</div>
+                <div class="font-weight-bold small">3 jaja i </div>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">290din</span>
+                <h6 class="text-truncate">Ka&#269;amak</h6>
+                <p class="small">Sir i kajmak</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">290din</span>
+                <h6 class="text-truncate">Pr&#382;enice</h6>
+                <p class="small">Tost,kajmak,sir.</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">220din</span>
+                <h6 class="text-truncate">Slatki doru&#269;ak</h6>
+                <p class="small">Tost,puter, d&#382;em i krem.</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">190</span>
+                <h6>Popara</h6>
+                <p class="small">Tost, sir.</p>
+            </div>
+        </div>
+<!-------------------------Corbe i supe--------------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">&#268;orbe i supe</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns2">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">180din</span>
+                <h6 class="text-truncate">Teleća supa</h6>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">180din</span>
+                <h6 class="text-truncate">Pileća supa</h6>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">150din</span>
+                <h6 class="text-truncate"></h6>
+                  <h6 class="small">Supa sa doma&#263;im rezancima i knedlama</h6>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">150din</span>
+                <h6 class="text-truncate">Pota&#382;</h6>
+            </div>
+        </div>
+<!-------------------------Sendvici----------------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Sendvi&#269;i</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">250din</span>
+                <h6 class="text-underline">Sendvi&#269; sunka</h6>
+                <p class="small">(&#353;unka, ka&#269;kavalj, salata)</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">260din</span>
+                <h6>Sendvi&#269; kulen</h6>
+                <p class="small">(Kulen, ka&#269;kavalj, salata)</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">270din</span>
+                <h6>Sendvi&#269; pe&#269;enica</h6>
+                <p class="small">(Pe&#269;enica, ka&#269;kavalj, salata)</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">270din</span>
+                <h6>Posni sendvi&#269;</h6>
+                <p class="small">(Tuna, biljni ka&#269;kavalj, salata)</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">300din</span>
+                <h6>Magija sendvi&#269;</h6>
+                <p class="small">(&#353;unka, ka&#269;kavalj, jaja).</p>
+            </div>
+        </div>
+<!-------------------------Obrok salate---------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Obrok salate (350g)</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">350din</span>
+                <h6 class="text-underline">Gr&#269;ka salata</h6>
+                <p class="small">(Masline, feta sir, zelena salata, luk, krastavac, paradajz, paprika)</p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">390din</span>
+                <h6>Cezar salata</h6>
+                <p class="small">(Slanina, piletina, salata, ka&#269;kavalj). </p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">330din</span>
+                <h6>Tuna salata</h6>
+                <p class="small">(Tunjevina, makarone, ka&#269;kavalj).</p>
+            </div>
+        </div>  
+<!-------------------------Pasta--------------------------> 
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Pasta</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns2">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">450din</span>
+                <h6 class="text-underline">Magija</h6>
+                <p class="small">(Piletina, paprika sve&#382;a, &#353;argarepa)</p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">420din</span>
+                <h6>Carbonara</h6>
+                <p class="small">(Slanina, &#353;unka) </p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">400din</span>
+                <h6>Pasta&#353;uta</h6>
+                <p class="small">(Paradajz sos, ka&#269;kavalj)</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">430din</span>
+                <h6>Balonjez</h6>
+                <p class="small">(Mleveno meso)</p>
+            </div>
+        </div> 
+<!-------------------------Gotova jela------------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Gotova jela</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">355din</span>
+                <h6 class="text-underline">Pasulj &#269;orbast</h6>
+                <p class="small">(Pasulj, rebra)</p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">455din</span>
+                <h6>Gula&#353;</h6>
+                <p class="small">(June&#263;e meso i pire krompir). </p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">425din</span>
+                <h6>Prebranac sa kobasicom</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">365din</span>
+                <h6 class="text-underline">Musaka</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">385din</span>
+                <h6>Punjene paprike</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">385din</span>
+                <h6>Gra&#353;ak</h6>
+                <p class="small">(Sa svinjskim mesom).</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">385din</span>
+                <h6 class="text-underline">Paprika&#353; svinjski</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">395din</span>
+                <h6>&#262;ufte u sosu</h6>
+                <p class="small">(Mleveno meso, pire krompir). </p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">395din</span>
+                <h6>Pileći ajmokac</h6>
+                <p class="small">(Piletina, rezanci).</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">385din</span>
+                <h6 class="text-underline">Sezonske sarmice</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">395din</span>
+                <h6>Sladak kupus sa junetinom</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">355din</span>
+                <h6>Podvarak sa piletinom</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">385din</span>
+                <h6 class="text-underline">Lova&#269;ka &#353;nicla</h6>
+                <p class="small">(Svinjsko meso, pire)</p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">385din</span>
+                <h6>Punjene tikvice</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">395din</span>
+                <h6>Junjeće &#353;nicle u sosu od pe&#269;uraka</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">385din</span>
+                <h6>Pilav sa piletinom</h6>
+                <p class="small"></p>
+            </div>
+        </div> 
+<!-------------------------Topla predjela------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Topla predjela</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns2">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">340din</span>
+                <h6 class="text-underline">Pohovani ka&#269;kavalj</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">380din</span>
+                <h6>Pe&#269;urke na &#382;aru</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">380din</span>
+                <h6>Pohovane pala&#269;inke</h6>
+                <p class="small">(Pala&#269;inka 2kom, &#353;unka, ka&#269;kavalj).</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">370din</span>
+                <h6>Grilovano porv&#263;e</h6>
+                <p class="small"></p>
+            </div>
+        </div> 
+<!-------------------------Porud&#382;bina----------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Jela po porud&#382;bini (350gr)</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">480din</span>
+                <h6 class="text-underline">Be&#269;ka &#353;nicla-svinjska</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">450din</span>
+                <h6>Be&#269;ka &#353;nicla-pileća</h6>
+                <p class="small"> </p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">480din</span>
+                <h6>Medaljoni sa pe&#269;urkama</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">480din</span>
+                <h6>Kara&#273;or&#273;eva &#353;nicla</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">460din</span>
+                <h6 class="text-underline">Pileća Kara&#273;or&#273;eva</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">420din</span>
+                <h6>Pohovana krilca</h6>
+                <p class="small"> </p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">530din</span>
+                <h6>Specijalitet magija</h6>
+                <p class="small">(Pile&#263;i file, slanina, ka&#269;kavalj).</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">850din</span>
+                <h6>Kolenica sa barenim krompirom (1kg)</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">960din</span>
+                <h6>Rolovana piletina (700gr za 2 osobe)</h6>
+                <p class="small">(Piletina, slanina i ka&#269;kavalj)</p>
+            </div>           
+        </div> 
+<!-------------------------Ro&#353;tilj-------------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Ro&#353;tilj (420gr)</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">450din</span>
+                <h6 class="text-underline">Ra&#382;njići svinjski</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">450din</span>
+                <h6>Ra&#382;njići pileći</h6>
+                <p class="small"></p>
+            </div>  
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">470din</span>
+                <h6>Ćevapi</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">460din</span>
+                <h6>Pileće belo</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">470din</span>
+                <h6>Plejskavica</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">460din</span>
+                <h6 class="text-underline">Batak na &#382;aru</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">460din</span>
+                <h6>Kobasice</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">480din</span>
+                <h6>Ra&#382;njić pileći rolovani</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">480din</span>
+                <h6>Ra&#382;njić svinjski rolovani</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">500din</span>
+                <h6>Punjena pljeskavica</h6>
+                <p class="small"></p>
+            </div>          
+        </div> 
+<!-------------------------Salate---------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Salate</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">220din</span>
+                <h6 class="text-underline">Vitaminska</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">180din</span>
+                <h6>Kupus</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">180din</span>
+                <h6>Kiseli kupus</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">180din</span>
+                <h6>Zelena salata</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">270din</span>
+                <h6 class="text-underline">&#352;opska salata</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">250din</span>
+                <h6>Srpska</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">50din</span>
+                <h6>Ljuta paprika (1kom)</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">250din</span>
+                <h6>Tzatziki</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">190din</span>
+                <h6>Paradajz salata</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">190din</span>
+                <h6>Krastavac salata</h6>
+                <p class="small"></p>
+            </div>            
+        </div> 
+<!-------------------------Lepinje----------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Lepinje komad</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">$70din</span>
+                <h6 class="text-underline">Projice</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">50din</span>
+                <h6>Lepinje</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">80din</span>
+                <h6>Mekike</h6>
+                <p class="small"></p>
+            </div>
+        </div> 
+<!-------------------------Desert----------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Desert</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">250din</span>
+                <h6 class="text-underline">Slatke pala&#269;inke (krem)</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">290din</span>
+                <h6>Pala&#269;inke sa toplim vi&#353;njama</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">250din</span>
+                <h6>Kola&#269;i</h6>
+                <p class="small"></p>
+            </div>
+        </div> 
+<!-------------------------Prilozi----------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Prilozi (150gr)</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns2">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">190din</span>
+                <h6 class="text-underline">Urnebes</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">250din</span>
+                <h6>Kajmak</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">210din</span>
+                <h6>Sir</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">200din</span>
+                <h6>Ajvar</h6>
+                <p class="small"></p>
+            </div>            
+        </div>         
+<!-------------------------Kafe------------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Kafe</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">120din</span>
+                <h6 class="text-underline">Espreso</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">130din</span>
+                <h6>Espreso sa mlekom</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">140din</span>
+                <h6>Capucino</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">145din</span>
+                <h6>Nes caffe</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">115din</span>
+                <h6>Domaća kafa</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">125din</span>
+                <h6>&#268;aj</h6>
+                <p class="small"></p>
+            </div>                  
+        </div>   
+<!-------------------------Rakije------------------------>
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Rakije</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">120din</span>
+                <h6 class="text-underline">&#352;ljiva</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">150din</span>
+                <h6>Dunja</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">150din</span>
+                <h6>Kajsija</h6>
+                <p class="small"></p>
+            </div>           
+        </div> 
+<!-------------------------&#382;estine------------------------>
+        <div class="col-12 mt-4">
+            <h3 class="text-center">&#381;estine</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">155din</span>
+                <h6 class="text-underline">Gorki list</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">120din</span>
+                <h6>Vinjak</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">230din</span>
+                <h6>Johnnie Walker</h6>
+                <p class="small"></p>
+            </div>      
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">250din</span>
+                <h6>Jack Daniels</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">125din</span>
+                <h6>Vodka</h6>
+                <p class="small"></p>
+            </div>     
+        </div> 
+<!-------------------------Voda------------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Voda</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns2">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">135din</span>
+                <h6 class="text-underline">Heba negazirana voda 0.25l</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">135din</span>
+                <h6>Heba gazirana 0.25l</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">170din</span>
+                <h6>Heba negazirana 0.75l</h6>
+                <p class="small"></p>
+            </div>      
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">190din</span>
+                <h6>Heba gazirana 1l</h6>
+                <p class="small"></p>
+            </div>   
+        </div>
+<!-------------------------Ce&#273;eni sokovi---------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Ce&#273;eni sokovi</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">150din</span>
+                <h6 class="text-underline">Limunada 0.2dcl</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold"> 160din</span>
+                <h6>Ce&#273;ena pomorand&#382;a 0.2dcl</h6>
+                <p class="small"></p>
+            </div> 
+        </div>
+<!-------------------------Sokovi----------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Sokovi</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns2">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">155din</span>
+                <h6 class="text-underline">Coca-cola 0.25l</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">155din</span>
+                <h6>Fanta 0.25l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">155din</span>
+                <h6>Bitter lemon 0.25l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">155din</span>
+                <h6>Sprite 0.25l</h6>
+                <p class="small"></p>
+            </div> 
+        </div>
+<!-------------------------Negazirani sokovi------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Negazirani sokovi</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns2">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">185din</span>
+                <h6 class="text-underline">Jabuka 0.2l</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">185din</span>
+                <h6>Narand&#382;a 0.2l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">185din</span>
+                <h6>Borovnia 0.2l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">185din</span>
+                <h6>Breskva 0.2l</h6>
+                <p class="small"></p>
+            </div> 
+        </div>
+<!-------------------------Energetska pića----------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Energetska pića</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns" style="width: 100%;">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">140din</span>
+                <h6 class="text-underline">Booster 0.25l</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div> 
+        </div>
+<!-------------------------Vina--------------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Vina</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">300din</span>
+                <h6 class="text-underline">Shardonnay 0.187l</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">1200din</span>
+                <h6>Shardonnay 0.75l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">650din</span>
+                <h6>Shardonnay domaći 1l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">290din</span>
+                <h6>Sauvigon blanc 0.187l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">1150din</span>
+                <h6 class="text-underline">Sauvigon blanc 0.75l</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">700din</span>
+                <h6>Sauvigon domaći 1l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">700din</span>
+                <h6>Rose 0.187l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">1150din</span>
+                <h6>Rose 0.75l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">650din</span>
+                <h6>Rose domaći 1l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">310din</span>
+                <h6>Merlot crveni 0.187l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">1110din</span>
+                <h6>Merlot crveni 0.75l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">710din</span>
+                <h6>Domaće crveno 1l</h6>
+                <p class="small"></p>
+            </div>             
+        </div>
+<!-------------------------Piva------------------------------->
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Piva</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">140din</span>
+                <h6 class="text-underline">Lav premium to&#269;eno 0.3l</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">160din</span>
+                <h6>Lav premium to&#269;eno 0.5l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">155din</span>
+                <h6>Lav premium 0.33l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">195din</span>
+                <h6>Calsberg 0.5l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">210din</span>
+                <h6 class="text-underline">Budweisser 0.5l</h6>
+                <p class="small"></p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">190din</span>
+                <h6>Tuborg 0.5l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">165din</span>
+                <h6>Lav twist 0.5l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">220din</span>
+                <h6>Somersby 0.33l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">215din</span>
+                <h6>Grimbergen 0.5l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">150din</span>
+                <h6>Merak 0.5l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">250din</span>
+                <h6>Kronenbourg 0.33l</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">190din</span>
+                <h6>Erdinger</h6>
+                <p class="small"></p>
+            </div>         
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">195din</span>
+                <h6>San Miguel</h6>
+                <p class="small"></p>
+            </div> 
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">265din</span>
+                <h6>Guinness</h6>
+                <p class="small"></p>
+            </div> 
+        </div>
+
+<!-------------------------Dnevni meni------------------
+        <div class="col-12 mt-4">
+            <hr class="accent my-5">
+        </div>
+        <div class="col-6 mx-auto">
+            <div class="card card-body text-center">
+                <h5 class="text-uppercase">Dnevni meni!</h5>
+                <h6>Albondigas Soup</h6>
+                <p class="small"> A steaming cup or bowl of Mexican meatball &amp; vegetable soup garnished with crispy tortilla strips and fresh cheddar-Jack cheese. If you like Mexican food try this!</p>
+                <span class="float-right font-weight-bold">$7</span>
+            </div>
+        </div>
+        <div class="col-12 mt-5 border border-right-0 border-left-0">
+        </div>
+    </div>
+</div>
+
+-------------------------Dnevni meni----------------------->
+
+
+<!---------------------Ketering------------------------->
+
+<div class="container py-5" id="ketering" style="padding-top: 200px !important;">
+    <div class="row">
+        <div class="col-lg-10 mx-auto col-12 text-center mb-3">
+            <h1 class="mt-0 text-primary">Ketering</h1>
+            <p class="lead">Za sve vrste va&#353;ih slavlja i proslava nudimo &#353;iroku lepezu na&#353;ih proizvoda. Ljubazno osoblje restorana Magija će se potruditi da va&#353;i gosti u&#382;ivaju u magi&#269;nim zalogajima na&#353;e hrane i pića. Kontaktirajte nas i uverite se u na&#353;u magiju </p>
+        </div>
+        <div class="col-12 mt-4">
+            <h3 class="text-center">Ponuda za koktele</h3>
+            <hr class="accent my-5">
+        </div>
+        <div class="card-columns">
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">30kom 1400din</span>
+                <h6 class="text-underline">Slani zalogaj</h6>
+                <p class="small">Korpice sa raznim salatama, slana torta, brodići, kanapei, projice</p>
+                <span class="font-weight-bold small"></span>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">1780din</span>
+                <h6>Kanapei</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">1950din</span>
+                <h6>Stapici sa prsutom i pancetom</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold"> 1kg 1050din</span>
+                <h6>Rolati</h6>
+                <p class="small">Razni</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">1kg 1050din</span>
+                <h6>Slane torte</h6>
+                <p class="small">Razne</p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">600-1200din</span>
+                <h6>Salate</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">950din</span>
+                <h6>Slane rafaelo kuglice</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">850din</span>
+                <h6>Kuglice od sira</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">550din</span>
+                <h6>Projice</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">1200din</span>
+                <h6>Jez</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">750din</span>
+                <h6>Kiflice</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold">600din</span>
+                <h6>Slani stapići</h6>
+                <p class="small"></p>
+            </div>
+            <div class="card card-body">
+                <span class="float-right font-weight-bold"></span>
+                <h6>Meso</h6>
+                <p class="small font-weight-bold">Rolovana piletina 1500din</p>
+                <p class="small font-weight-bold">Rolovana ple&#263;ka 1600din</p>
+                <p class="small font-weight-bold">Specijalitet "Mima" 1400din</p>
+            </div>
+        </div> 
+      <!-----------------
+      <div class="col-12 mt-5 border border-right-0 border-left-0">
+      ------------------>
+        <div class="col-12 mt-4">
+            <hr class="accent my-5">
+        </div>
+        <div class="col-6 mx-auto">
+            <div class="card card-body text-center">
+                <h5 class="text-uppercase"></h5>
+                <h6></h6>
+                <p class="small">Molimo vas da porud&#382;bine zakazujete najkasnije 2 dana unapred.</p>
+                <p class="small">Sve sa cenovnika se moze izabrati za ketering</p>
+                <p class="small">Dostava: Od ponedeljka do subote od 8:00 do 18:00</p>
+                <span class="float-right font-weight-bold"></span>
+            </div>
+        </div>
+        <div class="col-12 mt-5 border border-right-0 border-left-0">
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Gallery -->
+<div class="container" id="galerija" style="padding-top: 150px; padding-bottom: 250px;">
+  <div class="row gallery">
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="0"><img src="../images/g1.jpg" class="img-thumbnail my-3" style="height: 200px; width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="1"><img src="../images/g2.jpg" class="img-thumbnail my-3" style="height: 200px; width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="2"><img src="../images/g3.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="3"><img src="../images/g4.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="4"><img src="../images/g5.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="5"><img src="../images/g6.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="6"><img src="../images/k4.png" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="7"><img src="../images/g8.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="8"><img src="../images/g9.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="9"><img src="../images/g20.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="10"><img src="../images/g11.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="11"><img src="../images/g19.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+     <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="12"><img src="../images/g12.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="13"><img src="../images/g13.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="14"><img src="../images/g14.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal">
+      <a href="#lightbox" data-slide-to="15"><img src="../images/g15.jpg" class="img-thumbnail my-3" style="height: 200px;width: 320px;"></a>
+    </div>
+  </div>
+</div>
+
+
+
+<!---------------------- Modal ----------------------------->
+<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="Lightbox Gallery by Bootstrap 4" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="lightbox" class="carousel slide" data-ride="carousel" data-interval="5000" data-keyboard="true">
+          <ol class="carousel-indicators">
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active"><img src="../images/g1.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g2.jpg" class="w-100" 
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g3.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g4.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g5.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g6.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/k4.png" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g8.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g9.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g20.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g11.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g19.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g12.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g13.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g14.jpg" class="w-100"
+               alt="" style="height: 500px;"></div>
+            <div class="carousel-item"><img src="../images/g15.jpg" class="w-100"
+               alt=""style="height: 500px;"></div>
+          </div>
+          <a class="carousel-control-prev" href="#lightbox" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="sr-only">Previous</span></a>
+          <a class="carousel-control-next" href="#lightbox" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!---------------------Google map----------->
+
+
+<div id="googleMap" style="width:100%; height:800px; padding-top: 100px;"></div>
+
+
+<!---------------------Footer---------------->
+
+
+<!-- Footer -->
+<footer class="page-footer font-small blue pt-4" id="footer">
+
+  <!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+        <h5 class="text-uppercase">O nama</h5>
+        <p style="font-size: 20px;">Drage kom&#353;ije, na već dobro poznatoj lokaciji po&#269;eo je sa radom novi restoran domaće kuhinje “Magija MB”. U ponudi imamo za sva&#269;iji ukus pone&#353;to. Pozivamo vas da do&#273;ete i da zajedni&#269;kom &#269;arolijom stvaramo magi&#269;ne trenutke!</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3 footer_links">
+
+        <!-- Links -->
+        <h5 class="text-uppercase"></h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <i class="fas fa-phone">&nbsp;&nbsp;&nbsp;060 6969768</i>
+          </li>
+          <li>
+            <i class="fas fa-map-marker-alt">&nbsp;&nbsp;&nbsp;&nbsp;Kneza milosa</i>
+          </li>
+          <li>
+            <a href="https://www.donesi.com"><i class="fas fa-truck">&nbsp;&nbsp;Donesi.com</i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/magijamb/" style="text-decoration: none;">
+              <i class="fab fa-facebook-square"></i><i
+                style="font-family:'Font Awesome 5 Free';font-weight: 900; font-style: normal; font-size: 14px;">
+                &nbsp;&nbsp;&nbsp;Facebook.com</i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/magijamb/" style="text-decoration: none;"><i class="fab fa-instagram"></i>
+              <i style="font-family:'Font Awesome 5 Free';font-weight: 900; font-style: normal; font-size: 14px;">&nbsp;&nbsp;&nbsp;Instagram.com</i></a>
+          </li>
+          <li>
+            <i class="fas fa-envelope">&nbsp;&nbsp;&nbsp;restoranmagijamb@gmail.com</i>
+          </li>
+        </ul>
+
+      </div>
+
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright, Restoran Magija, all rights reserved
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+<script src="../Bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../JS/jquery.min.1.7.js"></script>
+<script src="../Bootstrap/js/bootstrap.js"></script>
+
+
+
+<script type="text/javascript">
+    
+$('.carousel2').carousel({
+    interval:4000
+})
+
+</script>
+
+
+
+
+<!------------------Ignore this--------------
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
+    
+    $(".zoom").hover(function(){
+    
+    $(this).addClass('transition');
+  }, function(){
+        
+    $(this).removeClass('transition');
+  });
+});
+    
+</script>
+
+--------------Ignore this-------------------->
+
+<script type="text/javascript">
+    
+function dropdown() {}
+
+</script>
+
+
+
+<script>
+// Initialize and add the map
+function initMap() {
+  // The location
+  var magija = {lat: 44.808840, lng: 20.464401};
+  // The map
+  var map = new google.maps.Map(
+      document.getElementById('googleMap'), {zoom: 20, center: magija});
+  // The marker
+  var marker = new google.maps.Marker({position: magija, map: map});
+}
+
+</script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVrIirfGj1xKbBRKWySjmuqKeknC1zm6Q&callback=initMap"></script>
 
 
 </body>
